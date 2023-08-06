@@ -38,3 +38,7 @@ body {
     opacity: 0.8;
     cursor: pointer;
 }
+
+.navbar > .active {
+    background-color: rgb(55, 109, 111);
+}

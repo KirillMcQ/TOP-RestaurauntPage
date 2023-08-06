@@ -74,4 +74,6 @@ const clearContent = () => {
 
 clearContent();
 contentDiv.appendChild(generateHomePage());
-
+homeBtn.classList.add('active');
+menuBtn.classList.remove('active');
+contactBtn.classList.remove('active');
