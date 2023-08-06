@@ -1,5 +1,8 @@
+import '../styles/contact.css';
+
 const generateContactPage = () => {
     const wrapperDiv = document.createElement('div');
+    wrapperDiv.classList.add('contactPageWrapper');
 
     const title = document.createElement('h1');
     title.classList.add('contactPageTitle');
