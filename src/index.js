@@ -2,6 +2,9 @@ import generateHomePage from './pages/home.js'
 import generateMenuPage from './pages/menu.js'
 import generateContactPage from './pages/contact.js';
 
+// base css
+import './styles/base.css';
+
 const contentDiv = document.querySelector('.content'); // Appending everything to this
 
 

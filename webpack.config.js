@@ -13,8 +13,8 @@ module.exports = {
         type: 'asset/resource'
       },
       {
-        test:/\.css$/,
-        use: ['css-loader']
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ]
   }
