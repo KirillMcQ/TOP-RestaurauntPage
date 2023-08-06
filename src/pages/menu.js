@@ -1,3 +1,5 @@
+import '../styles/menu.css';
+
 const generateMenuPage = () => {
     const wrapperDiv = document.createElement('div');
     wrapperDiv.classList.add('menuPageWrapper');
