@@ -32,16 +32,25 @@ const generateNavbar = () => {
     homeBtn.addEventListener('click', function() {
         clearContent()
         contentDiv.appendChild(generateHomePage());
+        homeBtn.classList.add('active');
+        menuBtn.classList.remove('active');
+        contactBtn.classList.remove('active');
     });
 
     menuBtn.addEventListener('click', function() {
         clearContent()
         contentDiv.appendChild(generateMenuPage());
+        homeBtn.classList.remove('active');
+        menuBtn.classList.add('active');
+        contactBtn.classList.remove('active');
     });
 
     contactBtn.addEventListener('click', function() {
         clearContent()
         contentDiv.appendChild(generateContactPage());
+        homeBtn.classList.remove('active');
+        menuBtn.classList.remove('active');
+        contactBtn.classList.add('active');
     });
     
     // Append Buttons
