@@ -1,4 +1,5 @@
 import foodImg from '../assets/food.png'
+import '../styles/home.css';
 
 const generateHomePage = () => {
     const homeWrapper = document.createElement('div'); // contains all content for this page
